@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Rubik&display=swap');
+
+
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: white;
+}
+.material-symbols-outlined:hover{
+    color: #2463e1;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+.Icons{
+    font-size: 30px;
+}
+.menuDiv{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.brandH3{
+    color: white;
+}
+.menuColumnDiv{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.menuRowDiv{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.menup{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.menup:hover{
+    color: #2463e1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.rowMain{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+.main{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+/* profile */
+
+
+.profile{
+    width: 400px;
+    height: 850px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 10px;
+}
+
+/* profile */
+
+.search-notifDiv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 32rem;
+}
+.searchDiv{
+    width: 300px;
+}
+.searchInput{
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 25px;
+}
+.searchBtn{
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 25px;
+}
+.searchBtn:hover{
+    background-color: #2463e1;
+    color: white;
+}
+.searchIcon:hover{
+    color: white;
+}
+.Overview-dotDiv{
+    padding-top: 1rem;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 45.5rem;
+}
+.Overview{
+    font-family: 'Mukta';
+    color: white;
+}
+.flexboxes-rowDiv{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.flexBox1{
+    width: 40%;
+    height: 350px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='350' height='350' preserveAspectRatio='none' viewBox='0 0 350 350'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1078%26quot%3b)' fill='none'%3e%3crect width='350' height='350' x='0' y='0' fill='rgba(40%2c 40%2c 40%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c80 C 35%2c87.2 105%2c126.2 175%2c116 C 245%2c105.8 315%2c46.4 350%2c29L350 350L0 350z' fill='rgba(53%2c 0%2c 211%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c321 C 23.4%2c292.6 70.2%2c183 117%2c179 C 163.8%2c175 187.4%2c284.6 234%2c301 C 280.6%2c317.4 326.8%2c269 350%2c261L350 350L0 350z' fill='rgba(36%2c 0%2c 144%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1078'%3e%3crect width='350' height='350' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    border: 1px solid #282828;
+    border-radius: 15px;
+}
+.flexBox1-details{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.detailes{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+}
+.flexBox1P{
+    color: white;
+    opacity: 50%;
+    font-size: 1.1rem;
+}
+.flexBox1-euroPrice{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+  }
+.euroSymbol{
+    font-size: 36px;
+}
+.euroPriceh3{
+    font-size: 1.8rem;
+    color: white;
+}
+.dateDitailes1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dateDitailes2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+.dateP1{
+    color: white;
+    opacity: 25%;
+    font-size: 1.2rem;
+}
+.dateP2{
+    color: white;
+    opacity: 50%;
+    font-size: 1.2rem;
+}
+.dateP3{
+    color: white;
+    opacity: 100%;
+    font-size: 1.2rem;
+}
+.dateP4{
+    color: white;
+    opacity: 50%;
+    font-size: 1.2rem;
+}
+.dateP5{
+    color: white;
+    opacity: 25%;
+    font-size: 1.2rem;
+}
+.flexBox2{
+    width: 23%;
+    height: 350px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 15px;
+}
+.flexBoxcolumnDiv{
+    width: 25%;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+.flexBox3{
+    width: 100%;
+    height: 165px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 15px;
+}
+.flexBox4{
+    width: 100%;
+    height: 165px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 15px;
+}
