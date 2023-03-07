@@ -24,6 +24,7 @@ body,html{
 .material-symbols-outlined:hover{
     color: #2463e1;
     cursor: pointer;
+    transition: 0.5s;
 }
 .container{
     width: 100%;
@@ -215,6 +216,48 @@ body,html{
     background-color: #282828;
     border: 1px solid #282828;
     border-radius: 15px;
+}
+.flexBox3Column{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+}
+.flexRow1{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 0.9rem;
+}
+.transferSymbol{
+    font-size: 30px;
+    background-color: #353535;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #353535;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+}
+.flexBox2P{
+    color: white;
+    font-size: 1.4rem;
+    opacity: 50%;
+}
+.flexRow2{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 0.3rem;
+}
+.row2P1{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.row2P2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 .flexBoxcolumnDiv{
     width: 25%;
