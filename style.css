@@ -268,7 +268,7 @@ body,html{
 }
 .profile{
     width: 400px;
-    height: 850px;
+    height: 1090px;
     background-color: #282828;
     border: 1px solid #282828;
     border-radius: 25px;
@@ -277,7 +277,7 @@ body,html{
     width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 2.5rem;
+    row-gap: 3rem;
     padding-left: 1.5rem;
     padding-top: 1.5rem;
 }
@@ -423,6 +423,7 @@ body,html{
 .profileColumnDiv2{
     display: inline-flex;
     flex-direction: column;
+    row-gap: 1.2rem;
 }
 .profileRowDiv6{
     display: inline-flex;
@@ -450,4 +451,148 @@ body,html{
     height: 45px;
     border: 1px solid #282828;
     border-radius: 50%;
+}
+.profileColumnDiv3{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+.profileRowDiv8{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 17.2rem;
+}
+.Recent{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.recentDiv{
+    background-color: #353535;
+    width: 95%;
+    height: 80px;
+    border: 1px solid #353535;
+    border-radius: 25px;
+}
+.recentRowDiv1{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 1.4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.RecentImg1{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #282828;
+    border-radius: 50%;
+}
+.RecentColumnDiv1{
+    display: inline-flex;
+    flex-direction: column;
+}
+.MariaLim{
+    color: white;
+    font-size: 1.2rem;
+}
+.recentRowDiv2{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 0.9rem;
+}
+.VISA{
+    color: white;
+    font-weight: bold;
+}
+.creditNumber{
+    color: white;
+    opacity: 50%; 
+}
+p{
+    margin-bottom: 0;
+}
+.mainRowDiv1{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 43.5rem;
+}
+.transactionsDivCOLUMN{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.Transactions{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.TransactionsDivs{
+    width: 100%;
+    height: 75px;
+    background-color: #202020;
+    border: 1px solid #202020;
+    border-radius: 25px;
+}
+.TransactionsRowDiv1{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.TransactionsRowDiv2{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+.electrictyIconDiv{
+    background-color: #353535;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #353535;
+    border-radius: 50%;
+}
+.electrictyIcon{
+    font-size: 20px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.electrictyP{
+    color: white;
+    font-size: 1.2rem;
+}
+.TransactionsColumnDiv1{
+    display: inline-flex;
+    flex-direction: column;
+}
+.transactionP1{
+    font-size: 0.9rem;
+    color: white;
+    opacity: 50%;
+}
+.transactionP2{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.TransactionsRowDiv3{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 0.2rem;
+}
+.transactionEuroSymbol{
+    font-size: 17px;
+    margin-top: 6px;
+}
+.transactionBtn{
+    background-color: #202020;
+    border: 2px solid #2463e1;
+    color: #2463e1;
+    border-radius: 15px;
+    width: 15%;
+    margin-left: 4rem;
+}
+.transactionBtn:hover{
+    background-color: #2463e1;
+    cursor: pointer;
 }
