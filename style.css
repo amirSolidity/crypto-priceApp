@@ -28,7 +28,7 @@ body,html{
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: 1200px;
     display: inline-flex;
     flex-direction: row;
     column-gap: 3rem;
@@ -595,4 +595,16 @@ p{
 .transactionBtn:hover{
     background-color: #2463e1;
     cursor: pointer;
+}
+.cryptoPriceDiv{
+    width: 95%;
+    height: 850px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 25px;
+    margin-left: 2rem;
+}
+.container2{
+    width: 100%;
+    height: 1200px;
 }
