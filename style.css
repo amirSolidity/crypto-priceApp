@@ -544,6 +544,7 @@ p{
     display: inline-flex;
     flex-direction: row;
     column-gap: 0.5rem;
+    width: 20%;
 }
 .electrictyIconDiv{
     background-color: #353535;
@@ -560,6 +561,7 @@ p{
 .electrictyP{
     color: white;
     font-size: 1.2rem;
+    width: 85px;
 }
 .TransactionsColumnDiv1{
     display: inline-flex;
@@ -604,7 +606,30 @@ p{
     border-radius: 25px;
     margin-left: 2rem;
 }
-.container2{
+.container2RowDiv{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.container2ColumnDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trendingDiv{
+    width: 30%;
     height: 1200px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 25px;
+}
+.coinsDiv{
+    width: 60%;
+    height: 1200px;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 25px;
 }
