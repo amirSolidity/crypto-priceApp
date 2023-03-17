@@ -633,4 +633,55 @@ p{
     background-color: #282828;
     border: 1px solid #282828;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
 }
+.TD{
+    text-align: start;
+}
+.gradeIcon{
+    padding-left: 1rem;
+}
+.cryptoNumber{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline;
+    padding-left: 1rem;
+}
+.coinsRowDiv1{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin: 0;
+}
+.coinsImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.coinsName1{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.coinsName2{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 50%;
+    padding-left: 1rem;
+}
+.coinsImg{
+    padding-left: 1rem;
+}
+.coinsPrice{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 5rem;
+}
+
