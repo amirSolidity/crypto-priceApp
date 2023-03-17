@@ -633,9 +633,6 @@ p{
     background-color: #282828;
     border: 1px solid #282828;
     border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 3rem;
 }
 .TD{
     text-align: start;
