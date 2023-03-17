@@ -4,4 +4,5 @@ const searchIcon = document.querySelector(".searchIcon")
 
 searchInput.addEventListener('click', () => {
     searchInput.style.backgroundColor = '#282828'
+    searchInput.style.color = "white"
 })
