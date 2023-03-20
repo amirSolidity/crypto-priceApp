@@ -747,21 +747,19 @@ p{
     text-align: right;
     width: 130px;
 }
-.coinsChange{
+.coin .coinsChange{
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: right;
     width: 130px;
 }
-.coinsVol{
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: right;
-    width: 100px;  
+.coin.rising .coinsPrice{
+    color: #30ff20;
 }
-
+.coin.falling .coinsPrice{
+    color: #ff4040;
+}
 
 
 
