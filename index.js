@@ -16,12 +16,10 @@ fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cte
     for(let coin of coins){
 
         const coinInfo = json[`${coin}`]
-        const Price = coin.usd;
-        const change = coin.usd_24h_change
+        const Price = coinInfo.usd;
+        const change = coinInfo.usd_24h_change.toFixed(5);
 
-        i++;
-
-        coinsColumnDiv1.innerHTML = 
+        coinsColumnDiv1.innerHTML += 
         `
         <div class="coinsRowDiv1 ${change < 0 ? 'falling' : 'rising'}">
             <div class="coinsRowDiv2">
