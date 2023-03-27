@@ -1,3 +1,5 @@
+const { Collapse } = require("bootstrap")
+
 const searchInput = document.querySelector(".searchInput")
 const searchDiv = document.querySelector(".searchDiv")
 const searchIcon = document.querySelector(".searchIcon")
@@ -12,7 +14,6 @@ fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cte
     const coins = Object.getOwnPropertyNames(json)
     const coinsColumnDiv1 = document.getElementById("coinsPriceColumnDiv")
     console.log(json)
-    let i = 1;
     for(let coin of coins){
 
         const coinInfo = json[`${coin}`]
@@ -35,7 +36,7 @@ fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cte
                 </div>
                 <div class="coinsNameDiv">
                     <p class="coinsName1">${coin}</p>
-                    <p class="coinsName2">DC</p>
+                    <p class="coinsName2">USD</p>
                 </div>
             </div>
         </div>
