@@ -6,7 +6,7 @@ searchInput.addEventListener('click', () => {
     searchInput.style.backgroundColor = '#282828'
     searchInput.style.color = "white"
 })
-fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Ctether%2Cbnb%2Cusdcoin%2Cxrp%2Ccardano%2Cpolygon%2Cdogecoin%2Csolana&vs_currencies=usd&include_24hr_change=true&include_last_updated_at=%20")
+fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Ctether%2Cbnb%2Cusdcoin%2Cxrp%2Ccardano%2Cpolygon%2Cdogecoin%2Csolana&vs_currencies=usd&include_24hr_change=true")
   .then(data => data.json())
   .then(json => {
     const coins = Object.getOwnPropertyNames(json)
@@ -47,3 +47,16 @@ fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cte
         `
     }
   })
+function input2_onFocus(){
+    wordRange.style.display = "inline"
+}
+
+function input2_keyDown(e){
+    if(e.keyCode == 8){
+        alert("Are you sure you want to delete this word ?")
+        wordRange.innerHTML = eval(wordRange.innerHTML) - 1
+    }else if(e.keyCode != 8){
+        wordRange.innerHTML = eval(wordRange.innerHTML) + 1
+    }
+}
+const wordRange = document.getElementById("word_range")
