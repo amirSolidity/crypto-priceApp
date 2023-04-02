@@ -1,4 +1,4 @@
-const { Collapse } = require("bootstrap")
+
 
 const searchInput = document.querySelector(".searchInput")
 const searchDiv = document.querySelector(".searchDiv")
@@ -61,3 +61,12 @@ function input2_keyDown(e){
     }
 }
 const wordRange = document.getElementById("word_range")
+
+
+
+
+const divvvvv = document.getElementById("divvvv")
+const inptBtn = document.getElementById("btnn")
+function click(){
+    divvvvv.style.backgroundColor = "red"
+}
