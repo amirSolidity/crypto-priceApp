@@ -70,3 +70,50 @@ const inptBtn = document.getElementById("btnn")
 function click(){
     divvvvv.style.backgroundColor = "red"
 }
+
+const form = document.getElementById('form')
+const emailRegex = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/
+const phoneRegex = /09(1[0-9]|3[1-9]|2[1-9])-?[0-9]{3}-?[0-9]{4}/
+const nameRegex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/
+const nameInput = document.getElementById('nameInput')
+const phoneInput = document.getElementById('phoneInput')
+const emailInput = document.getElementById('emailInput')
+const nameSmall = document.getElementById('nameSmall')
+const phoneSmall = document.getElementById('phoneSmall')
+const emailSmall = document.getElementById('emailSmall')
+const submitBtn = document.getElementById('submitBtn')
+const contactInputs = document.getElementById('formColumn').getElementsByTagName('input')
+console.log(contactInputs[0])
+
+form.addEventListener('submit' , (event) => {
+    event.preventDefault()
+
+    const resultName = nameRegex.test(nameInput.value)
+    if(!(resultName)){
+        nameSmall.innerHTML = 'the entered name is not correct'
+        nameSmall.style.color = 'red'
+    }else{
+        nameSmall.innerHTML = ''
+    }
+    const resultPhone = phoneRegex.test(phoneInput.value)
+    if(!(resultPhone)){
+        phoneSmall.innerHTML = 'the entered number is not correct'
+        phoneSmall.style.color = 'red'
+    }else{
+        phoneSmall.innerHTML = ''
+    }
+    const resultEmail = emailRegex.test(emailInput.value)
+    if(!(resultEmail)){
+        emailSmall.innerHTML = 'the entered email is not correct'
+        emailSmall.style.color = 'red'
+    }else{
+        emailSmall.innerHTML = ''
+    }
+})
+
+const focusDommmm = () =>{
+    for(let i = 0;i<contactInputs.length; i++){
+        contactInputs[i].style.backgroundColor = '#353535'
+        contactInputs[i].style.color = 'white'
+    }
+}
